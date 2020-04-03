@@ -54,7 +54,7 @@ body{
     padding: 10px;
 }
 
-carousel {
+.carousel {
     background:$background-dark;
 
     .carousel-item {
@@ -73,4 +73,16 @@ carousel {
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+
+.modal-header {
+    background-color: $background-dark;
+    color: floralwhite;
+    button {
+        color: floralwhite;
+    }
+}
+
+.modal-body {
+    background-color: $background-pale;
 }

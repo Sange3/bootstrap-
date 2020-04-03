@@ -37,11 +37,11 @@ body {
   border-bottom: 1px solid #ddd;
   padding: 10px; }
 
-carousel {
+.carousel {
   background: #512DA8; }
-  carousel .carousel-item {
+  .carousel .carousel-item {
     height: 300px; }
-    carousel .carousel-item img {
+    .carousel .carousel-item img {
       position: absolute;
       top: 0;
       left: 0;
@@ -52,3 +52,12 @@ carousel {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal-header {
+  background-color: #512DA8;
+  color: floralwhite; }
+  .modal-header button {
+    color: floralwhite; }
+
+.modal-body {
+  background-color: #D1C4E9; }
